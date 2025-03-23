@@ -24,7 +24,7 @@ Refer to [Task 1](https://github.com/Finova-MIT/fullstack-task-1-template/blob/m
 ## Learning Resources
 
 Refer to the following resources to brush up on Vite, JavaScript, TypeScript and Git:
-- [Vite, JavaScript, TypeScript & Git Learning Resource](https://docs.google.com/document/d/1_aV2zSxGqxYbqkQcOpeKf5ikivCw9n7RjQi7dJ18Q8Y/edit?usp=sharing)
+- [Vite, JavaScript, TypeScript & Git Learning Resource](https://docs.google.com/document/d/1q5I1DLnNSgbJVThN1ox9cdqzKub97FUtwqilE_rqOyk/edit?usp=sharing)
 
 ---
 
@@ -33,7 +33,7 @@ Refer to the following resources to brush up on Vite, JavaScript, TypeScript and
 
 ### **Requirements:**  
 1. **Fetch stock price from API:** Use the following API to get the current stock price:  
-   **API:** `https://finova-mancomm.vercel.app/api/stock`  
+   **API:** https://finova-mancomm.vercel.app/api/stock
 2. **Validate input:**  
    - Guess must be a **number**.  
    - Guess must **not exceed 2 decimal places**.  
