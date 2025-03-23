@@ -23,8 +23,8 @@ Refer to [Task 1](https://github.com/Finova-MIT/fullstack-task-1-template/blob/m
 
 ## Learning Resources
 
-Refer to the following resources to brush up on HTML and CSS:
--   [Vite, JavaScript and TypeScript Learning Resources]()
+Refer to the following resources to brush up on Vite, JavaScript, TypeScript and Git:
+- [Vite, JavaScript, TypeScript & Git Learning Resource](https://docs.google.com/document/d/1_aV2zSxGqxYbqkQcOpeKf5ikivCw9n7RjQi7dJ18Q8Y/edit?usp=sharing)
 
 ---
 
