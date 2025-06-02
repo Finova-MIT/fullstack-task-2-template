@@ -1,0 +1,6 @@
+install nodejs
+set up vite
+port html, css to vite
+write functionality of fetching stock price from api
+write functionality of guessing the stock price
+write functionality of showing the result

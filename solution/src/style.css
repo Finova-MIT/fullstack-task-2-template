@@ -1,0 +1,121 @@
+* {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  height: 100vh;
+  background-color: #1a1a1a;
+}
+
+.container {
+  width: auto;
+  height: auto;
+  background-color: #252525;
+  border: #cccccc solid 1px;
+  border-radius: 10px;
+  padding: 60px;
+}
+
+.title,
+.company-name {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 60px;
+}
+
+.company-name {
+  color: #64dfdf;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  gap: 5px;
+}
+
+#guess {
+  outline: none;
+  background-color: #0d0d0d7f;
+  border: #cccccc solid 1px;
+  border-radius: 10px;
+  flex-grow: 1;
+  color: #ffffff;
+  padding: 20px;
+}
+
+#guess-button {
+  background-color: #6930c3;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.notification {
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 5px;
+  display: none;
+}
+
+.notification h2,
+.state-success,
+.state-failure {
+  font-size: 1.5rem;
+}
+
+.notification p {
+  color: #cccccc;
+}
+
+.success {
+  background-color: #30c37a19;
+}
+
+.state-success {
+  color: #40ff9f;
+}
+
+.failure {
+  background-color: #c3305219;
+}
+
+.state-failure {
+  color: #ff406d;
+}
+
+.price {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    background-color: transparent;
+    border: none;
+  }
+
+  .input {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #guess,
+  #guess-button {
+    width: 100%;
+  }
+}
